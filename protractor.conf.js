@@ -1,6 +1,14 @@
 exports.config = {
-  seleniumAddress: 'http://localhost:4444/wd/hub',
   specs: ['app/**/*.e2e.js'],
-  baseUrl: 'http://localhost:3000',
-  rootElement: 'html'
+  baseUrl: 'http://localhost:9000',
+  rootElement: 'html',
+  chromeOnly: false,
+
+  multiCapabilities: [{
+    'browserName': 'chrome'
+  }, {
+    'browserName': 'firefox'
+  }, {
+    'browserName': 'safari'
+  }],
 }
