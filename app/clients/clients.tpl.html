@@ -1,0 +1,4 @@
+<input type="text" ng-model="searchQuery">
+<ul>
+    <li ng-repeat="client in clients | filter:searchQuery">{{client}}</li>
+</li>

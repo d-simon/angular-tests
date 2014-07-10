@@ -1,0 +1,23 @@
+{
+  "name": "angular-tests",
+  "version": "0.0.0",
+  "authors": [
+    "David Simon <me@davidsimon.ch>"
+  ],
+  "description": "Finding Best Practices for Unit/E2E Testing Angular.js",
+  "license": "(none)",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-mocks": "~1.2.19",
+    "angular-ui-router": "~0.2.10",
+    "angular": "~1.2.19"
+  }
+}
